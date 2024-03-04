@@ -1,0 +1,80 @@
+.cart_page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+
+  .user_info {
+    display: flex;
+
+
+    .avatar_user {
+      width: 150px;
+      padding: 0px 8px;
+      border-radius: 50%;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    .user_info_body {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-evenly;
+
+      .user_name {
+        font-weight: bold;
+        font-size: 25px;
+      }
+
+      .user_email {
+        display: block;
+      }
+    }
+  }
+
+  .cart_bill {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: end;
+    margin: 20px 30px;
+
+    .cart_bill_table {
+      border: solid 1px #000000;
+      margin: 20px 0px;
+
+      tbody {
+        tr {
+          td {
+            border: 2px solid #ddd; /* Add borders to all cells */
+            padding: 30px 60px; /* Adjust padding as needed */
+          }
+        }
+
+        tr.cart_bill_final {
+          td {
+            border-top: 2px solid #3498db; /* Different border for the last row */
+            background-color: #f8f8f8; /* Example background color for the last row */
+            font-weight: bold; /* Example bold text for the last row */
+          }
+
+        }
+
+
+      }
+    }
+
+    .check_out_button {
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+
+}

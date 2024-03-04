@@ -1,0 +1,16 @@
+.future_products {
+  padding: 32px;
+
+  .future_products_heading {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .future_product_list {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+  }
+}

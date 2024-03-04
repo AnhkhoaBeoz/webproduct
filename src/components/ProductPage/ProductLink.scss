@@ -1,0 +1,21 @@
+.product-link {
+
+  display: flex;
+  padding: 8px;
+  color: black;
+  margin: 4px 0px;
+  text-decoration: none;
+  justify-content: start;
+  align-items: center;
+
+  .icon_title {
+    font-weight: bold;
+    margin-left: 16px;
+  }
+
+  .icon_emoji {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  }
+}

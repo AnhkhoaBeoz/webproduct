@@ -1,0 +1,115 @@
+@keyframes ldio-ik7uuusm3f {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+.ldio-ik7uuusm3f div {
+  box-sizing: border-box!important;
+}
+
+.ldio-ik7uuusm3f > div {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  top: 28px;
+  left: 28px;
+  border-radius: 50%;
+  border: 16px solid #000;
+  borderColor: #e15b64 transparent #e15b64 transparent;
+  animation: ldio-ik7uuusm3f 1s linear infinite;
+}
+
+.ldio-ik7uuusm3f > div:nth-child(2), .ldio-ik7uuusm3f > div:nth-child(4) {
+  width: 108px;
+  height: 108px;
+  top: 46px;
+  left: 46px;
+  animation: ldio-ik7uuusm3f 1s linear infinite reverse;
+}
+
+.ldio-ik7uuusm3f > div:nth-child(2) {
+  borderColor: transparent #f8b26a transparent #f8b26a;
+}
+
+.ldio-ik7uuusm3f > div:nth-child(3) { borderColor: transparent; }
+
+.ldio-ik7uuusm3f > div:nth-child(3) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+
+.ldio-ik7uuusm3f > div:nth-child(3) div:before,
+.ldio-ik7uuusm3f > div:nth-child(3) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -16px;
+  left: 48px;
+  background: #e15b64;
+  border-radius: 50%;
+  box-shadow: 0 128px 0 0 #e15b64;
+}
+
+.ldio-ik7uuusm3f > div:nth-child(3) div:after {
+  left: -16px;
+  top: 48px;
+  box-shadow: 128px 0 0 0 #e15b64;
+}
+
+.ldio-ik7uuusm3f > div:nth-child(4) { borderColor: transparent; }
+
+.ldio-ik7uuusm3f > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+
+.ldio-ik7uuusm3f > div:nth-child(4) div:before,
+.ldio-ik7uuusm3f > div:nth-child(4) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -16px;
+  left: 30px;
+  background: #f8b26a;
+  border-radius: 50%;
+  box-shadow: 0 92px 0 0 #f8b26a;
+}
+
+.ldio-ik7uuusm3f > div:nth-child(4) div:after {
+  left: -16px;
+  top: 30px;
+  box-shadow: 92px 0 0 0 #f8b26a;
+}
+
+.loadingio-spinner-double-ring-ch5keipgpcj {
+  width: 100vw; /* Set width to full viewport width */
+  height: 100vh; /* Set height to full viewport height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  position: fixed; /* Fixed positioning to keep it on top */
+  top: 0;
+  left: 0;
+}
+
+.ldio-ik7uuusm3f {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.ldio-ik7uuusm3f div {
+  box-sizing: content-box;
+}

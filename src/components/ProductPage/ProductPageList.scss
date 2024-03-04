@@ -1,0 +1,18 @@
+.product_page_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .product_page_list_heading {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .product_page_list_cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
